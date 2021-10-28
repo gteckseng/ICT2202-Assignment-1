@@ -1,0 +1,7 @@
+# This is the IOC Scanner database
+
+5060df3ec70f4f8f14066679087bc6933311c53b ; IocTestFile2_TestFile_sha1
+
+2d282102fa671256327d4767ec23bc6b ; IocTestFile_md5
+
+b61ddd16015fa96c9bdc8eba8f5a19303353cdc6e92b0e6342efdded9361472b ; IocTestFile3_SHA256
