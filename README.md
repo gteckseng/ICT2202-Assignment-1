@@ -1,21 +1,25 @@
 **Documentation for IOC Scanner**
 
 **Introduction**
+
 The Python script "IOCScanner.py" is a script that can scan individual directories or perform a full system scan (root directory) , searching the directory/entire file system, for malicious files if any as per the database text file, "Hashesioc.txt", located in its working directory.
 It also generates appropriate reports in the form of log files that are HTML documents, that contain very detailed information about the scan done.
 The Python script converts the database text file into a Python dictionary and uses it to search for malicious hashes.
 
 **How to run the Python script ?**
-Simply, navigate to the location of the script using terminal. Type:
-**python IOCScanner.py**
+
+Simply, navigate to the location of the script using terminal. 
+Type: **python IOCScanner.py**
 and hit ENTER !
 
 
 **How to initiate a scan ?**
+
 When the script starts running, it will display all the instructions on the console, and ask for input from the user.
 To run a test, you can type the path to a particular directory you wish to scan and hit ENTER.
 For example, to scan the bin folder type:
 /**bin**
+
 and hit ENTER.
 To scan the** full system** , type:
 /
