@@ -54,6 +54,5 @@ The script will ask the user a yes or no, question to delete those files.
 If the user gives consent, the files will be deleted, permanently.
 If for some reason, the files could not be deleted, all their details, along with their absolute paths, would be recorded in the report log file generated.
 
-**
-Are there any additional dependencies, that needs to be installed ?**
+**Are there any additional dependencies, that needs to be installed ?**
 There are no additional dependencies. It is standard Python code.
