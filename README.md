@@ -36,7 +36,7 @@ It is highly **recommended **that the script be run in **super user** mode.
 
 The Python script loads database from the file "Hashesioc.txt", and extracts the corresponding hash as well as the description separated by semi-colon ';' and puts them into a dictionary.
 The file: "Hashesioc.txt", contains 10000+ sample information, and yet the IOC Scanner is very efficient in scanning!
-I have updated that file, with **md5, sha1 and sha256** hashes of a few test files (ordinary harmless text files!) located in TestFiles directory, to demonstrate compromise detection capabilities.
+We have updated that file, with **md5, sha1 and sha256** hashes of a few test files (ordinary harmless text files!) located in TestFiles directory, to demonstrate compromise detection capabilities.
 It also checks, whether there are any illegal characters in the hash, and reports to the user, that there is an error in that particular line of the database.
 The database parsing is done line by line. Lines beginning with "#" symbol are ignored by the script as they are considered as human readable comments.
 A line in the database text file with a hash and description separated by semicolon is considered as a "sample", by the script.
