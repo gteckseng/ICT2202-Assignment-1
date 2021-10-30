@@ -9,7 +9,7 @@ The Python script converts the database text file into a Python dictionary and u
 **How to run the Python script ?**
 
 Simply, navigate to the location of the script using terminal. 
-Type: **python IOCScanner.py**
+Type: **python3 IOCScanner.py**
 and hit ENTER !
 
 
